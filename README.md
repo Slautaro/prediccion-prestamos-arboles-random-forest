@@ -9,6 +9,10 @@ TP2 de la materia Aprendizaje Automático. Implementación desde cero de un árb
 - `TP2.pdf`: consigna del trabajo práctico.
 - `Diapositivas.pdf`: diapositivas de la presentación del trabajo.
 
+## Resultado
+
+Sobre el conjunto de prueba, el árbol de decisión individual obtuvo **80.1% de accuracy y F1-score de 0.44**, mientras que el Random Forest (bagging de 10 árboles) obtuvo **78.0% de accuracy y F1-score de 0.31**. En este caso el árbol individual superó al ensamble, probablemente porque el bagging con pocos árboles y bootstrap diluye la señal de un dataset ya bastante desbalanceado.
+
 ## Cómo correrlo
 
 ```bash
